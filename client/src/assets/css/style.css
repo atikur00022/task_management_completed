@@ -1,0 +1,214 @@
+body{
+    overflow-x: hidden;
+}
+
+.card {
+    --bs-card-border-color: none;
+}
+
+button{
+    background: #cb0c9f !important;
+    border: 1px solid #cb0c9f !important;
+    color: #ffffff !important;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.custom-confirm-button {
+    background-color: #3085d6 !important;
+    color: white !important;
+    border-color: #3085d6 !important;
+}
+
+.custom-cancel-button {
+    background-color: #d33 !important;
+    color: white !important;
+    border-color: #d33 !important;
+}
+
+
+/* Topbar Part Start */
+.topbar .topbar-title{
+    font-size: 22px;
+}
+
+.topbar .profile img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.topbar .dropdown-toggle::after {
+    display: none;
+}
+
+.topbar .dropdown-menu{
+    width: 15%;
+    height: auto;
+    --bs-dropdown-border-color: none;
+}
+
+.topbar a:hover{
+    background: transparent !important;
+}
+/* Topbar Part End */
+
+/* Sidebar Part Start */
+.active-color{
+    display: block;
+    color: #fff !important;
+    background-color: #DA498D;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.not-active-color{
+    color: #1D1616;
+}
+
+.sidebar .menu{
+    font-size: 18px;
+    text-decoration: none !important;
+    margin-bottom: 20px;
+}
+
+.sidebar .menu a{
+    color: #1D1616;
+    text-decoration: none !important;
+}
+/* Sidebar Part End */
+
+/* Registration Part Start */
+.registration {
+    margin-top: 150px;
+}
+
+.registration .card {
+    width: 70%;
+    margin: auto;
+}
+
+.registration .regis a{
+    font-size: 12px;
+    text-decoration: none;
+}
+/* Registration Part End */
+
+/* Login Part Start */
+.login {
+    margin-top: 150px;
+}
+
+.login .card {
+    width: 70%;
+    margin: auto;
+}
+
+.login .regis a{
+    font-size: 12px;
+    text-decoration: none;
+}
+/* Login Part End */
+
+/* Send 0tp Part Start */
+.sendOtp {
+    margin-top: 150px;
+}
+
+.sendOtp .card {
+    width: 70%;
+    margin: auto;
+}
+
+.sendOtp .regis a{
+    font-size: 12px;
+    text-decoration: none;
+}
+/* Send 0tp Part End */
+
+/* Verify 0tp Part Start */
+.verifyOtp {
+    margin-top: 150px;
+}
+
+.verifyOtp .card {
+    width: 70%;
+    margin: auto;
+}
+
+.verifyOtp .regis a{
+    font-size: 12px;
+    text-decoration: none;
+}
+/* Verify 0tp Part End */
+
+/* Reset Password Part Start */
+.resetpassword {
+    margin-top: 150px;
+}
+
+.resetpassword .card {
+    width: 70%;
+    margin: auto;
+}
+
+.resetpassword .regis a{
+    font-size: 12px;
+    text-decoration: none;
+}
+/* Reset Password Part End */
+
+/* Create Part Start */
+.create{
+    margin-top: 50px;
+}
+/* Create Part End */
+
+/* Completed Part Start */
+.completed{
+    margin-top: 50px;
+}
+
+.completed a{
+    color: #cb0c9f !important;
+}
+/* Completed Part End */
+
+/* Canceled Part Start */
+.canceled{
+    margin-top: 50px;
+}
+
+.canceled a{
+    color: #cb0c9f !important;
+}
+
+.canceled .arrow{
+    font-size: 20px;
+}
+/* Canceled Part End */
+
+/* Progress Part Start */
+.progress{
+    margin-top: 50px;
+}
+
+.progress a{
+    color: #cb0c9f !important;
+}
+/* Progress Part End */
+
+/* Profile Part End */
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+/* Profile Part Start */
