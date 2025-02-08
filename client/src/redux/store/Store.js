@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import settingReducer from '../state-slice/SettingSlice.js';
-import taskReducer from '../state-slice/TaskSlice.js';
-import summaryReducer from '../state-slice/summarySlice.js';
-import profileReducer from '../state-slice/ProfileSlice.js';
-import searchResultReducer from '../state-slice/SearchResultSlice.js';
+import settingReducer from '../stateSlice/SettingSlice.js';
+import taskReducer from '../stateSlice/TaskSlice.js';
+import summaryReducer from '../stateSlice/summarySlice.js';
+import profileReducer from '../stateSlice/ProfileSlice.js';
+import searchResultReducer from '../stateSlice/SearchResultSlice.js';
 
 export default configureStore({
     reducer: {

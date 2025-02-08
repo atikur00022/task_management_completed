@@ -1,12 +1,12 @@
 import axios from "axios";
 import store from "../redux/store/Store.js";
-import {hideLoader, showLoader} from "../redux/state-slice/SettingSlice.js";
+import {hideLoader, showLoader} from "../redux/stateSlice/SettingSlice.js";
 import {getToken, setToken, setUserDetails} from "../utility/SessionHelper.js";
-import {setCanceledTask, setCompletedTask, setNewTask, setProgressTask} from "../redux/state-slice/TaskSlice.js";
-import {setSummary} from "../redux/state-slice/SummarySlice.js";
+import {setCanceledTask, setCompletedTask, setNewTask, setProgressTask} from "../redux/stateSlice/TaskSlice.js";
+import {setSummary} from "../redux/stateSlice/SummarySlice.js";
 import validationHelper from "../utility/ValidationHelper.js";
-import {setProfile} from "../redux/state-slice/ProfileSlice.js";
-import {clearSearchResult, setSearchResult} from "../redux/state-slice/SearchResultSlice.js";
+import {setProfile} from "../redux/stateSlice/ProfileSlice.js";
+import {clearSearchResult, setSearchResult} from "../redux/stateSlice/SearchResultSlice.js";
 
 const BASE_URL = 'http://localhost:8000/api/v1';
 
